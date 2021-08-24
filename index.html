@@ -8,29 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Stocks-Profit and Loss</h1>   
+    <div class="main-container">
+    <h1 class="main-hero">Stocks-Profit and Loss</h1>   
+    <h2>Check Your Profit loss</h2>
     <main>
         <label for="initial-price">
             Initial Price
-            <input id="initial-price" placeholder="Enter Initial Prize"type="text"/>
+            <input class="input-area"id="initial-price" placeholder="Enter Initial Prize"type="Number"/>
         </label>
         
         <label for="stock-quantity">
             Quantity =
-            <input id="stock-quantity" placeholder="Enter Number of Stocks Bought"type="text"/> 
+            <input class="input-area"id="stock-quantity" placeholder="Enter Number of Stocks Bought"type="Number"/> 
         </label>
         
         <label for="current-price">
             Current Price
-            <input id="current-price"placeholder="Enter Current Price"type="text"/>
+            <input class="input-area"id="current-price"placeholder="Enter Current Price"type="Number"/>
         </label>
         
 
-        <button id="submit-btn">Tell Me!</button>
+        <button class="btn-submit" id="submit-btn">Tell Me!</button>
 
-        <div id="output-Div"></div>
+        <div class="output-box"id="output-Div"></div>
         
     </main> 
+</div>
     <script src="app.js"></script>
 </body>
 </html>
