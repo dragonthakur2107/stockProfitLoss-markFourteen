@@ -11,7 +11,7 @@ function calcProfitAndLoss(initial, quantity, current){
     if(current>initial)
     {
         //  profit
-        var profit =(current-initial);
+        var profit =(current-initial)*quantity;
         var profitPercent=(profit/initial)*100;
         showOutput("Good Work! Profit is "+profit+" by "+dotTwoLimiter(profitPercent)+"%");
     }
